@@ -16,11 +16,12 @@ dl, dd, ol, ul, figure {
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
+    font-weight: 400;
     line-height: $base-line-height;
-    font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    padding-top: 60px;
 }
 
 
@@ -98,7 +99,7 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
