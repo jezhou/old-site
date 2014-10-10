@@ -16,6 +16,9 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
+$primary-color:    #0099CC;
+$primary-color-dark: #00607F; 
+$secondary-color:  white;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -42,4 +45,4 @@ $on-laptop:        800px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "bootstrap";
+@import "bootstrap", "jezhou-theme", "about";

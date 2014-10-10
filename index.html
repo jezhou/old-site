@@ -1,22 +1,12 @@
 ---
-layout: default
+layout: presentation
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="container resume">
+    {% include resume_profile.html %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2 class="post-meta">{{ post.date | date: "%b %d, %Y" }}</h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          <h2>{{ post.title }}</h2>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
 
 </div>

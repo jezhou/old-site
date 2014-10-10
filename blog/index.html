@@ -1,0 +1,26 @@
+---
+layout: default
+title: Blog
+---
+
+<img class="img-responsive" src="{{ "/images/pano2.jpg" | prepend: site.baseurl }}">
+
+<div class="container">
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        <div class="row post-highlight">
+          <div class="col-xs-12 col-sm-3">
+            <h4 class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</h4>
+          </div>
+          <div class="col-xs-12 col-sm-9">
+              <h4>{{ post.title }}</h4>
+          </div>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+</div>
