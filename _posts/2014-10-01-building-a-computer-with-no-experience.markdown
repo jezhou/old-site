@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a Computer with no experience"
 date:   2014-10-01 13:56:56
-categories: projects hardware
+categories: blog projects hardware
 ---
 This summer, I had the pleasure of building my first computer from scratch. Ain't she a beaut?
 

@@ -12,6 +12,9 @@ github_username:  jezhou
 instagram_username: jezhou
 twitter_username: yozhou
 
+#Outputting
+permalink: pretty
+
 # Build settings
 markdown: kramdown
 
