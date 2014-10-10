@@ -1,0 +1,44 @@
+body{
+	padding-bottom: 60px;
+}
+
+.post{
+	& h4{
+		color: $grey-color;
+	}
+
+	& p {
+		font-size: $base-font-size;
+		font-weight: 300;
+		line-height: 150%;
+		margin-bottom: 15px;
+		margin-top: 0;
+	}
+
+	& li{
+		font-size: $base-font-size;
+		font-weight: 300;
+		list-style-type: square;
+	}
+
+	& img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.post p {
+}
+
+#back-button{
+	position: fixed;
+	text-align: center;
+	bottom: 10px;
+	z-index: 1000000;
+	left: 0;
+	right: 0;
+
+	& > a{
+		display: inline-block;
+	}
+}
