@@ -2,18 +2,36 @@
 
   <div class="row">
 
-    <h1 class="page-header"> Quick Stats </h1>
+    <div class="col-sm-6 col-xs-12">
+      <p class="section-title">Quick Stats</p>
+    </div>
 
-    <div class="col-xs-12 quick-stats">
+    <div class="col-sm-6 col-xs-12 quick-stats">
       <div>
-        <h4>{{ site.data.profile.year }}</h4>
-        <h4>{{ site.data.profile.major }}</h4>
-        <h4>Living in {{ site.data.profile.location }}</h4>
-        <h4>{{ site.data.profile.phone }}</h4>
-        <h4>{{ site.data.profile.email }}</h4>
+        <h4>{{ site.data.profile.about.year }}</h4>
+        <h4>{{ site.data.profile.about.college }}</h4>
+        <h4>{{ site.data.profile.about.major }}</h4>
+        <h4>Living in {{ site.data.profile.about.location }}</h4>
       </div>
     </div>
 
+  </div>
+
+</div>
+
+<div class="resume-section">
+
+  <div class="row">
+    <div class="col-sm-6 col-xs-12">
+      <p class="section-title">Contact</p>
+    </div>
+
+    <div class="col-sm-6 col-xs-12 quick-stats">
+      <div>
+        <h4>{{ site.data.profile.contact.phone }}</h4>
+        <h4>{{ site.data.profile.contact.email }}</h4>
+      </div>
+    </div>
   </div>
 
 </div>

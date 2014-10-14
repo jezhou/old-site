@@ -7,7 +7,7 @@
 }
 
 .icon-bar{
-	background-color: white;
+	background-color: black;
 }
 
 
@@ -64,9 +64,6 @@ a{
 	font-size: 4vh;
 	color: $text-color;
 
-	&:hover{
-		background-color: $primary-color;
-	}
 }
 
 //Styling for the cool little effect for the logo woohoo
@@ -101,7 +98,12 @@ a{
 		color: $brand-color;
 	}
 
-	.post-highlight:hover{
-		background-color: lightgray;
-	}
+}
+
+//Panorama image
+
+.panorama-image{
+	width: 100%;
+	height: 612px;
+	background-size: cover;
 }

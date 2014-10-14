@@ -32,10 +32,10 @@
 
       $('.hover-fade').hover(function(){
         if(fade){
-          $(this).animate({color: secondary_color, backgroundColor: primary_color}, 200);
+          $(this).animate({opacity: 0.5}, 200);
         }
         else{
-          $(this).animate({color: "black", backgroundColor: "transparent"}, 200);
+          $(this).animate({opacity: 1}, 200);
         }
 
         fade = !fade;

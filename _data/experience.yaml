@@ -1,3 +1,25 @@
-- job: SPAWAR Systems Center Pacific
-  duration: June 2014 - Present 
-  description: 
+list:
+  - publish: true
+    company: SPAWAR Systems Center Pacific
+    job: Research Assistant
+    start_date: 6/9/2014
+    end_date: Present
+    link: http://nreip.asee.org/
+    summary: > 
+      Worked on a machine learning project for the US Navy. 
+      Goal was to recognize unknown GPS trajectories from known ones with transportation labels.
+      Currently working on this project.
+    highlights:
+      - bullet: Independently handled preprocessing of millions of GPS coordinates, which included cleaning up noise and adding new features to dataset
+      - bullet: Organized and ran initial tests using knn supervised machine learning algorithm
+      - bullet: Created a Python script that translated GPS coordinates from the database into Google Earth, which is useful for debugging and visualization
+      - bullet: Used Python libraries like Sci-Kit Learn, Pandas, and NumPy to create and run all tests
+  - publish: false
+    company: Fitgeek Sports
+    job: Sales Associate
+    start_date: 6/1/2013
+    end_date: 9/1/2013
+    link: http://www.fitgeeksports.com/
+    summary: > 
+      Sales associate at the local shoe store. Specialized in GAIT Analysis, shoe fitting, and marketing.
+      Designed most of the posters used for advertising.

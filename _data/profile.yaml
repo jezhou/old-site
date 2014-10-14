@@ -1,7 +1,11 @@
 publish: true
 
-year: Second Year at UC San Diego
-major: Computer Science B.S.
-location: La Jolla, CA 
-phone: (408)-504-6225
-email: jez017@ucsd.edu
+about:
+  year: Second Year
+  college: UC San Diego
+  major: Computer Science B.S.
+  location: La Jolla, CA 
+
+contact:
+  phone: (408)-504-6225
+  email: jez017@ucsd.edu
