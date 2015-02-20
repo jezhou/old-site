@@ -1,24 +1,15 @@
 # Site settings
-title: Jesse Zhou, UCSD 2017
-email: jez017@ucsd.edu
+title: Jesse Zhou
+tagline: Computer Science, UCSD 2017
+email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am an aspiring programmer pursuing a bachelor's degree in Computer Science.
-  Currently attempting to discover the ways of the universe.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-
-#Usernames
+twitter_username: jekyllrb
 github_username:  jezhou
-instagram_username: jezhou
-twitter_username: yozhou
-
-#Outputting
-permalink: pretty
 
 # Build settings
 markdown: kramdown
-
-# Collections
-collections:
-  projects: 
-    output: true

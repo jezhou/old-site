@@ -1,33 +1,12 @@
 <footer class="site-footer">
 
-  <div class="container">
+  <script src="{{ "/js/jquery.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/menu-toggle.js" | prepend: site.baseurl }}"></script>
 
-    <div class="col-xs-12">
-        
-        {% if site.github_username %}
-          <a href="https://github.com/{{ site.github_username }}">
-            <img class="icon--images hover-fade" src="{{ "/svg/github.svg" | prepend: site.baseurl }}">
-          </a>
-        {% endif %}
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.1.5/trianglify.min.js"></script>
 
-        {% if site.twitter_username %}
-          <a href="https://twitter.com/{{ site.twitter_username }}">
-            <img class="icon--images hover-fade" src="{{ "/svg/twitter.svg" | prepend: site.baseurl }}">
-          </a>
-        {% endif %}
-
-        {% if site.instagram_username %}
-          <a href="https://instagram.com/{{ site.instagram_username }}">
-            <img class="icon--images hover-fade" src="{{ "/svg/instagram.svg" | prepend: site.baseurl }}">
-          </a>
-        {% endif %}
-          
-        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-          <img class="icon--images hover-fade" src="{{ "/svg/rss.svg" | prepend: site.baseurl }}">
-        </a>
-
-    </div>
-
-  </div>
+  <script src="{{ "/js/jezhoubackground.js" | prepend: site.baseurl }}"></script>
 
 </footer>

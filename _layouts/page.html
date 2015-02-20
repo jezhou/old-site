@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post col-sm-offset-2 col-sm-8 col-xs-12">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="page-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </div>
   </header>
 
-  <div class="container">
-	<article class="post-content">
-	    {{ content }}
-	</article>
-  </div>
+  <article class="post-content">
+    {{ content }}
+  </article>
 
 </div>

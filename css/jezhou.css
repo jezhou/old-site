@@ -1,0 +1,27 @@
+.content{
+  margin-top: 10vh;
+}
+
+#menu-toggle{
+  position: fixed;
+}
+
+#sidebar-wrapper hr {
+  border-top: 5px solid #fff;
+  opacity: 0.5;
+}
+
+.post-list{
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-list li code{
+  float: left;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+ }

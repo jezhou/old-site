@@ -1,0 +1,26 @@
+<div id="sidebar-wrapper">
+  <div class="sidebar-nav">
+
+    <li class="sidebar-brand">
+      <h2><a href="/"><strong>{{site.title}}</strong></a></h2>
+      <p><em>{{site.tagline}}</em></p>
+    </li>
+
+    <li>
+      <h4>
+        <a class="page-link" href="/">Home</a>
+      </h4>
+    </li>
+
+    {% for page in site.pages %}
+      {% if page.title %}
+      <li>
+        <h4>
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </h4>
+      </li>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</div>

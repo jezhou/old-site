@@ -4,21 +4,24 @@
   {% include head.html %}
 
   <body>
+    <div id="wrapper">
+      {% include sidebar.html %}
 
-    {% include header.html %}
+      <div id="page-content-wrapper">
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+        <a href="#menu-toggle" class="btn btn-danger btn-small" id="menu-toggle">
+          <span class="glyphicon glyphicon-align-justify"></span>
+        </a>
+
+        <div class="container content">
+          {{ content }}
+        </div>
       </div>
+
     </div>
 
-    {% include footer.html %}
-
-    <!-- Scripts -->
-    {% include scripts.html %}
-
-
   </body>
+
+  {% include footer.html %}
 
 </html>
