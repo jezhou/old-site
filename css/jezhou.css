@@ -1,9 +1,21 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.logo{
+  width: 50%;
+  height: auto;
+}
+
 .content{
-  margin-top: 10vh;
+  margin-top: 3vh;
+  margin-bottom: 6vh
 }
 
 #menu-toggle{
   position: fixed;
+  z-index: 100;
 }
 
 #sidebar-wrapper hr {
@@ -20,8 +32,24 @@
   float: left;
 }
 
+.post-item{
+  margin-bottom: 10px;
+}
+
+.post-meta{
+  color: #d9534f;
+}
+
+.post-share{
+  width: 141px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 img {
   display: block;
   height: auto;
   max-width: 100%;
+  margin-top: 20px;
+  margin-bottom: 30px;
  }

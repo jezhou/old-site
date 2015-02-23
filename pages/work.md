@@ -4,7 +4,7 @@ title: Work Experience
 permalink: /work/
 ---
 
-*Note: This page is a comprehensive look into all the jobs I've ever had, merely for convenience. Please see my [resume]() for a more concise version of this.*
+*Note: This page is a comprehensive look into all the jobs I've ever had, merely for convenience. Please see my [resume](/resume) for a more concise version of this.*
 
 **Web Developer, UC San Diego Devaraj Group, December 2014 - Present**
 
